@@ -9,8 +9,8 @@ typealias Villains = ArrayList<Villain>
 @Parcelize
 data class Villain(
 
-    var name: String,
     var image: String,
+    var name: String,
     var description: String,
     var poderes: String
 ) : Parcelable

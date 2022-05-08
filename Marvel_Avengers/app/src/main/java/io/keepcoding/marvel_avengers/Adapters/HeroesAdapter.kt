@@ -31,11 +31,11 @@ class HeroesAdapter(private var items: Heroes, private val listener: ItemClickLi
                 listener?.onItemClickListener(item)
             }
 
-         /*   with(view.context){
+           with(view.context){
 
                 val imageDrawableId = resources.getIdentifier(item.image, "drawable", packageName)
                 heroImageView.setImageDrawable(AppCompatResources.getDrawable(this, imageDrawableId))
-            } */
+            }
             heroNameTextView.text = item.name
         }
     }

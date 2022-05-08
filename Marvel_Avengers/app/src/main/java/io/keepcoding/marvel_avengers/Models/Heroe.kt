@@ -10,8 +10,8 @@ typealias Heroes = ArrayList<Heroe>
 @Parcelize
 data class Heroe(
 
-    var name: String,
     var image: String,
+    var name: String,
     var description: String,
     var poderes: String
 ) : Parcelable

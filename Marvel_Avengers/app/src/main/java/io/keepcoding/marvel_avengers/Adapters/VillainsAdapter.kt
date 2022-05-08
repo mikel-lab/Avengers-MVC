@@ -31,11 +31,11 @@ class VillainsAdapter(private var items: Villains, private val listener: Villain
             view.setOnClickListener {
                 listener?.onItemClickListener(item)
             }
-        /*    with(view.context){
+           with(view.context){
 
                 val imageDrawableId = resources.getIdentifier(item.image, "drawable", packageName)
                 villainImageView.setImageDrawable(AppCompatResources.getDrawable(this, imageDrawableId))
-            } */
+            }
 
 
             villainNameTextView.text = item.name
